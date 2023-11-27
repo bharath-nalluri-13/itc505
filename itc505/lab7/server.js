@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve static files from the "public" directory
 //app.use(express.static("public"));
-app.use(express.static("itc505/lab7"));
+app.use(express.static("/itc505/lab7"));
 
 
 // POST route handler for the mad lib form
