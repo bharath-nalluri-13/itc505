@@ -3,6 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
+app.get('/favicon.ico', (req, res) => res.status(204));
+
 
 // Middleware to parse the request body
 app.use(bodyParser.urlencoded({ extended: true }));
