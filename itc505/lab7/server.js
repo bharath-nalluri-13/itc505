@@ -15,8 +15,12 @@ app.post("/itc505/lab7", (req, res) => {
   // Extract data from the form
   const { noun, adjective, verb, pluralNoun, adverb } = req.body;
 
+  console.log("Form Data:", req.body);
+
   // Your Mad Lib template
   const madLib = `Grab your ${adjective} ${noun} and ${adverb} ${verb} to NAU University. Explore the ${adjective} SBS building, and the ${adjective} engineering building. Head to the HLC for ${adjective} games, and other cool ${pluralNoun}.`;
+
+  console.log("Mad Lib:", madLib);
 
   res.send(madLib);
 });
