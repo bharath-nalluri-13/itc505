@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && npm run build" # or whatever is necessary for your project
+  command = "npm install && npm run build" 
   functions = "functions"
   publish = "public"
 
