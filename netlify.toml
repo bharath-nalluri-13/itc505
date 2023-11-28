@@ -1,11 +1,3 @@
 [build]
-command = "npm install && npm run build"
-publish = "public"
-functions = "functions"
-
-
-[[redirects]]
-  from = "/itc505/lab7/*"
-  to = "/.netlify/functions/server/:splat"
-  status = 200
-  force = true
+  command = "npm install && npm run build"
+  publish = "public"
