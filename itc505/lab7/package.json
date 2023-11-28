@@ -1,4 +1,0 @@
-"scripts": {
-  "start": "node itc505/lab7/server.js",
-  "build": "echo 'No build step needed'"
-}
