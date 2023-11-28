@@ -1,6 +1,3 @@
 [build]
-  command = "npm run build"
-  functions = "netlify/functions"
-
-[dev]
-  publish = "public"
+  command = "npm start"
+  publish = "itc505/lab7"
