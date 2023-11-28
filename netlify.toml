@@ -1,7 +1,8 @@
 [build]
-  command = "npm install && npm run build" 
-  functions = "functions"
-  publish = "public"
+command = "npm install && npm run build"
+publish = "public"
+functions = "functions"
+
 
 [[redirects]]
   from = "/itc505/lab7/*"
